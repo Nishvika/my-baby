@@ -14,7 +14,6 @@ pipeline {
     tools {
            maven 'maven-tool'
     }
-
     stages {
         stage('Hello') {
             steps {
